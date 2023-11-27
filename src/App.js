@@ -2,22 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  let name = "olami";
+  let num = true;
+  let wife = false;
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>life is good</h1>
+      <p> i love my {wife ? " wife semiat" : " she is not around"}</p>
+      <div>dont kill her {num ? " she is human too" : " let her go"}</div>
     </div>
   );
 }
